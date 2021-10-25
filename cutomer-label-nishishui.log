@@ -1,0 +1,35 @@
+2021-10-21 15:59:35.783  INFO 26320 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\sxczl\nacos\config
+2021-10-21 15:59:35.803  INFO 26320 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2021-10-21 15:59:35.825  WARN 26320 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[cutomer-label-dev.yml] & group[DEFAULT_GROUP]
+2021-10-21 15:59:35.829  WARN 26320 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[cutomer-label] & group[DEFAULT_GROUP]
+2021-10-21 15:59:35.832  WARN 26320 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[cutomer-label.yml] & group[DEFAULT_GROUP]
+2021-10-21 15:59:36.013  WARN 26320 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[cutomer-label-dev.yml] & group[DEFAULT_GROUP]
+2021-10-21 15:59:36.014  INFO 26320 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-cutomer-label-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cutomer-label.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cutomer-label,DEFAULT_GROUP'}]
+2021-10-21 15:59:36.053  INFO 26320 --- [main] c.c.modules.CustomerLabelApplication     : The following profiles are active: dev
+2021-10-21 15:59:36.632  INFO 26320 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3964e150-ecc7-3955-aa95-05253dbf4c35
+2021-10-21 15:59:36.778  INFO 26320 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-21 15:59:36.915  INFO 26320 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-21 15:59:37.153  INFO 26320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8077 (http)
+2021-10-21 15:59:37.162  INFO 26320 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-21 15:59:37.163  INFO 26320 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-10-21 15:59:37.360  INFO 26320 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-21 15:59:37.361  INFO 26320 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1294 ms
+2021-10-21 15:59:37.479  WARN 26320 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-10-21 15:59:37.480  INFO 26320 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-21 15:59:37.483  WARN 26320 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-10-21 15:59:37.484  INFO 26320 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-21 15:59:37.639  INFO 26320 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-21 15:59:37.683  INFO 26320 --- [main] c.a.c.s.SentinelWebAutoConfiguration     : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-10-21 15:59:38.408  INFO 26320 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2021-10-21 15:59:38.413  INFO 26320 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2021-10-21 15:59:38.414  INFO 26320 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2021-10-21 15:59:38.414  INFO 26320 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2021-10-21 15:59:39.274  INFO 26320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8077 (http) with context path ''
+2021-10-21 15:59:39.276  INFO 26320 --- [main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: BeatInfo{port=8077, ip='10.10.27.172', weight=1.0, serviceName='DEFAULT_GROUP@@cutomer-label', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2021-10-21 15:59:39.278  INFO 26320 --- [main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@cutomer-label with instance: Instance{instanceId='null', ip='10.10.27.172', port=8077, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2021-10-21 15:59:39.298  INFO 26320 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cutomer-label 10.10.27.172:8077 register finished
+2021-10-21 15:59:39.943  INFO 26320 --- [main] c.c.modules.CustomerLabelApplication     : Started CustomerLabelApplication in 6.325 seconds (JVM running for 7.947)
+2021-10-21 15:59:39.946  INFO 26320 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-127.0.0.1_8848] [subscribe] cutomer-label.yml+DEFAULT_GROUP
+2021-10-21 15:59:39.946  INFO 26320 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cutomer-label.yml, group=DEFAULT_GROUP, cnt=1
+2021-10-21 15:59:39.947  INFO 26320 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-127.0.0.1_8848] [subscribe] cutomer-label+DEFAULT_GROUP
+2021-10-21 15:59:39.947  INFO 26320 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cutomer-label, group=DEFAULT_GROUP, cnt=1
